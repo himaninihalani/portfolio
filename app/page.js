@@ -58,10 +58,10 @@ export default function Home() {
             <a className="btn btn-primary" href={site.links.resume} download>
               Download resume
             </a>
-            <a className="btn" href={site.links.github} target="_blank" rel="noreferrer">
+            <a className="btn" href={site.links.github} target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
-            <a className="btn" href={site.links.linkedin} target="_blank" rel="noreferrer">
+            <a className="btn" href={site.links.linkedin} target="_blank" rel="noopener noreferrer">
               LinkedIn
             </a>
           </div>
@@ -130,12 +130,12 @@ export default function Home() {
                   {(p.href || p.repo) && (
                     <p className="project-links">
                       {p.href && (
-                        <a href={p.href} target="_blank" rel="noreferrer">
+                        <a href={p.href} target="_blank" rel="noopener noreferrer">
                           Live site
                         </a>
                       )}
                       {p.repo && (
-                        <a href={p.repo} target="_blank" rel="noreferrer">
+                        <a href={p.repo} target="_blank" rel="noopener noreferrer">
                           Source code
                         </a>
                       )}
@@ -174,10 +174,10 @@ export default function Home() {
             Want to collaborate or talk about an opportunity? Reach out on LinkedIn or take a look at my code on GitHub.
           </p>
           <div className="hero-actions">
-            <a className="btn btn-primary" href={site.links.linkedin} target="_blank" rel="noreferrer">
+            <a className="btn btn-primary" href={site.links.linkedin} target="_blank" rel="noopener noreferrer">
               Message on LinkedIn
             </a>
-            <a className="btn" href={site.links.github} target="_blank" rel="noreferrer">
+            <a className="btn" href={site.links.github} target="_blank" rel="noopener noreferrer">
               View GitHub
             </a>
           </div>
